@@ -1,0 +1,11 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <full-calendar 
+      #fullcalendar 
+      *ngIf="calendarOptions" 
+      [deepChangeDetection]="true" 
+      [options]="calendarOptions"
+    >
+    </full-calendar>
+  </div>
+</ion-content>

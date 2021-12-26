@@ -1,0 +1,7 @@
+{
+  "name": "examplesIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
